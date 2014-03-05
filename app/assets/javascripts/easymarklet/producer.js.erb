@@ -61,7 +61,7 @@
             }
             var oldHeight = 0;
             setInterval(function(){
-              var currentHeight = $('body').outerHeight(true); //document.body.scrollHeight;
+              var currentHeight = ('body').outerHeight(true); //document.body.scrollHeight;
               if(currentHeight != oldHeight){
                 _this.resizeFrame(currentHeight);
                 oldHeight = currentHeight;
